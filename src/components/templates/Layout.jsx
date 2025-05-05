@@ -1,4 +1,5 @@
 import Header from "../molecules/Header";
+import Footer from "../organisms/Footer";
 import Menu from "../organisms/Menu";
 
 function Layout({ children }) {
@@ -7,7 +8,7 @@ function Layout({ children }) {
       <Header />
       <Menu />
       <main className="w-full overflow-hidden">{children}</main>
-      <footer className="w-full h-screen bg-red-500"></footer>
+      <Footer />
     </section>
   );
 }

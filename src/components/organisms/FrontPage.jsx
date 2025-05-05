@@ -7,6 +7,7 @@ import RealEstateAgentIcon from "@mui/icons-material/RealEstateAgent";
 import BungalowIcon from "@mui/icons-material/Bungalow";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
 import WorkOutlineIcon from "@mui/icons-material/WorkOutline";
+import YouTubeIcon from "@mui/icons-material/YouTube";
 
 function FrontPage() {
   return (
@@ -28,14 +29,14 @@ function FrontPage() {
             icon={<SupportAgentIcon fontSize="small" />}
           />
           <Button
-            text="Invierte"
+            text="Canal"
             background="bg-transparent"
             color="text-light"
-            icon={<AttachMoneyIcon fontSize="small" />}
+            icon={<YouTubeIcon fontSize="small" />}
           />
         </div>
       </div>
-      <div className="absolute bottom-0 left-0 w-full h-64 grid grid-cols-1 grid-rows-[50px_1fr] gap-7 p-4 py-12 rounded-t-2xl bg-light overflow-hidden">
+      <div className="absolute bottom-0 left-0 w-full h-64 grid grid-cols-1 grid-rows-[50px_1fr] gap-4 p-4 pt-10 pb-14 rounded-t-2xl bg-light overflow-hidden">
         <div>
           <h2 className="text-dark font-medium">¿ QUE QUIERES HACER ?</h2>
           <p>Tenemos un equipo listo para ayudarte</p>

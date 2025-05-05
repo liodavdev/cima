@@ -5,7 +5,7 @@ function Home() {
   return (
     <Layout>
       <FrontPage />
-      <article className="w-full h-96 bg-light"></article>
+      {/* <article className="w-full h-96 bg-light"></article> */}
     </Layout>
   );
 }
