@@ -18,7 +18,7 @@ function Home() {
         className="relative w-full h-screen"
       >
         <div className="w-full h-[calc(100%-240px)] flex flex-col justify-end gap-5 p-4 pb-20">
-          <h2 className="text-light">TU VENTANA A UNA NUEVA VIDA</h2>
+          <h2 className="text-light">TU PUERTA A UNA NUEVA VIDA</h2>
           <div className="flex gap-5">
             <Button
               text="Encuentra un agente"
@@ -32,7 +32,7 @@ function Home() {
             />
           </div>
         </div>
-        <div className="absolute bottom-0 left-0 w-full h-60 p-4 pt-14 rounded-t-3xl bg-light">
+        <div className="absolute bottom-0 left-0 w-full h-60 p-4 pt-14 rounded-t-2xl bg-light">
           <h2 className="mb-4 text-dark font-medium">LISTA DE PROPIEDADES</h2>
           <p>Explora entre nuestra lista de propiedades</p>
         </div>

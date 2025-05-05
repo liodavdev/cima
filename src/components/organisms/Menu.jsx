@@ -1,0 +1,46 @@
+import { useMenuStore } from "../../lib/store/menu";
+import CloseIcon from "@mui/icons-material/Close";
+import Button from "../atoms/Button";
+import MailOutlineIcon from "@mui/icons-material/MailOutline";
+
+function Menu() {
+  const { menuIsOpen, handleMenuStatus } = useMenuStore();
+
+  function closeMenu() {
+    handleMenuStatus({ bool: false });
+  }
+
+  return (
+    <section
+      className={`fixed ${
+        menuIsOpen ? "left-[0%]" : "left-[100%]"
+      } z-50 w-full h-full bg-light duration-300 ease-in-out`}
+    >
+      <header className="w-full h-16 flex justify-between items-center px-4">
+        <i className="text-dark font-bold text-[28px]">CIMA</i>
+        <div className="flex items-center gap-5">
+          <Button
+            text="Contactanos"
+            color="text-light"
+            background="bg-dark"
+            icon={<MailOutlineIcon fontSize="small" />}
+          />
+          <button className="h-full text-dark" onClick={closeMenu}>
+            <CloseIcon fontSize="medium" />
+          </button>
+        </div>
+      </header>
+      <menu className="w-full flex flex-col items-start gap-5 p-4 pt-10 text-[16px] text-dark">
+        <button>Inicio</button>
+        <button>Compra</button>
+        <button>Vende</button>
+        <button>Invierte</button>
+        <button>Agentes</button>
+        <button>Servicios</button>
+        <button>Contactanos</button>
+      </menu>
+    </section>
+  );
+}
+
+export default Menu;
