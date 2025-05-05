@@ -37,7 +37,7 @@ function Menu() {
           </button>
         </div>
       </header>
-      <menu className="flex flex-col justify-evenly items-start p-4 pt-10 text-[16px] text-dark">
+      <menu className="flex flex-col justify-evenly items-start p-4 pt-10 text-[16px] text-red-wine">
         <button>Inicio</button>
         <button>Compra</button>
         <button>Vende</button>

@@ -3,6 +3,11 @@ import item from "../assets/item_1.webp";
 import Button from "../components/atoms/Button";
 import SupportAgentIcon from "@mui/icons-material/SupportAgent";
 import AttachMoneyIcon from "@mui/icons-material/AttachMoney";
+import RealEstateAgentIcon from "@mui/icons-material/RealEstateAgent";
+import BungalowIcon from "@mui/icons-material/Bungalow";
+import ActionBtn from "../components/atoms/ActionBtn";
+import MailOutlineIcon from "@mui/icons-material/MailOutline";
+import WorkOutlineIcon from "@mui/icons-material/WorkOutline";
 
 function Home() {
   return (
@@ -32,9 +37,32 @@ function Home() {
             />
           </div>
         </div>
-        <div className="absolute bottom-0 left-0 w-full h-60 p-4 pt-14 rounded-t-2xl bg-light">
-          <h2 className="mb-4 text-dark font-medium">LISTA DE PROPIEDADES</h2>
-          <p>Explora entre nuestra lista de propiedades</p>
+        <div className="absolute bottom-0 left-0 w-full h-60 grid grid-cols-1 grid-rows-[25px_25px_1fr] gap-4 p-4 pt-14 rounded-t-2xl bg-light overflow-hidden">
+          <h2 className="text-dark font-medium">¿ QUE QUIERES HACER ?</h2>
+          <p>Tenemos un equipo listo para ayudarte</p>
+          <menu className="flex items-center gap-5 overflow-auto">
+            <ActionBtn
+              text="Compra"
+              icon={<RealEstateAgentIcon fontSize="small" />}
+            />
+            <ActionBtn text="Vende" icon={<BungalowIcon fontSize="small" />} />
+            <ActionBtn
+              text="Invierte"
+              icon={<AttachMoneyIcon fontSize="small" />}
+            />
+            <ActionBtn
+              text="Servicios"
+              icon={<WorkOutlineIcon fontSize="small" />}
+            />
+            <ActionBtn
+              text="Agentes"
+              icon={<SupportAgentIcon fontSize="small" />}
+            />
+            <ActionBtn
+              text="Contacto"
+              icon={<MailOutlineIcon fontSize="small" />}
+            />
+          </menu>
         </div>
       </article>
       <article className="w-full h-96 bg-light"></article>
