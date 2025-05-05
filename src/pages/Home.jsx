@@ -22,7 +22,7 @@ function Home() {
         }}
         className="relative w-full h-screen"
       >
-        <div className="w-full h-[calc(100%-240px)] flex flex-col justify-end gap-5 p-4 pb-20">
+        <div className="w-full h-[calc(100%-256px)] flex flex-col justify-end gap-5 p-4 pb-22">
           <h2 className="text-light">TU PUERTA A UNA NUEVA VIDA</h2>
           <div className="flex gap-5">
             <Button
@@ -37,7 +37,7 @@ function Home() {
             />
           </div>
         </div>
-        <div className="absolute bottom-0 left-0 w-full h-60 grid grid-cols-1 grid-rows-[25px_25px_1fr] gap-4 p-4 pt-14 rounded-t-2xl bg-light overflow-hidden">
+        <div className="absolute bottom-0 left-0 w-full h-64 grid grid-cols-1 grid-rows-[25px_25px_1fr] gap-4 p-4 pt-14 rounded-t-2xl bg-light overflow-hidden">
           <h2 className="text-dark font-medium">¿ QUE QUIERES HACER ?</h2>
           <p>Tenemos un equipo listo para ayudarte</p>
           <menu className="flex items-center gap-5 overflow-auto">
