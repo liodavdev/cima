@@ -18,7 +18,7 @@ function FrontPage() {
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
       }}
-      className="relative w-full h-screen duration-300 ease-in-out"
+      className="relative w-full h-screen"
     >
       <div className="w-full h-[calc(100%-256px)] flex flex-col justify-end gap-5 p-4 pb-22">
         <h2 className="text-light">TU PUERTA A UNA NUEVA VIDA</h2>
@@ -35,9 +35,11 @@ function FrontPage() {
           />
         </div>
       </div>
-      <div className="absolute bottom-0 left-0 w-full h-64 grid grid-cols-1 grid-rows-[25px_25px_1fr] gap-5 p-4 pt-14 rounded-t-2xl bg-light overflow-hidden">
-        <h2 className="text-dark font-medium">¿ QUE QUIERES HACER ?</h2>
-        <p>Tenemos un equipo listo para ayudarte</p>
+      <div className="absolute bottom-0 left-0 w-full h-64 grid grid-cols-1 grid-rows-[50px_1fr] gap-7 p-4 py-12 rounded-t-2xl bg-light overflow-hidden">
+        <div>
+          <h2 className="text-dark font-medium">¿ QUE QUIERES HACER ?</h2>
+          <p>Tenemos un equipo listo para ayudarte</p>
+        </div>
         <menu className="flex items-center gap-5 overflow-auto">
           <ActionBtn
             text="Compra"
