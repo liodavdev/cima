@@ -1,6 +1,8 @@
 import Layout from "../components/templates/Layout";
 import item from "../assets/item_1.webp";
 import Button from "../components/atoms/Button";
+import SupportAgentIcon from "@mui/icons-material/SupportAgent";
+import AttachMoneyIcon from "@mui/icons-material/AttachMoney";
 
 function Home() {
   return (
@@ -15,14 +17,18 @@ function Home() {
         }}
         className="relative w-full h-screen"
       >
-        <div className="w-full h-[calc(100%-240px)] flex flex-col justify-end gap-5 p-4 pb-16">
+        <div className="w-full h-[calc(100%-240px)] flex flex-col justify-end gap-5 p-4 pb-20">
           <h2 className="text-light">TU VENTANA A UNA NUEVA VIDA</h2>
           <div className="flex gap-5">
-            <Button text="Encuentra un agente" />
+            <Button
+              text="Encuentra un agente"
+              icon={<SupportAgentIcon fontSize="small" />}
+            />
             <Button
               text="Invierte"
               background="bg-transparent"
               color="text-light"
+              icon={<AttachMoneyIcon fontSize="small" />}
             />
           </div>
         </div>
