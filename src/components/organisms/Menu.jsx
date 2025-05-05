@@ -2,6 +2,7 @@ import { useMenuStore } from "../../lib/store/menu";
 import CloseIcon from "@mui/icons-material/Close";
 import Button from "../atoms/Button";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
+import cima_dark from "../../assets/cima_dark.png";
 
 function Menu() {
   const { menuIsOpen, handleMenuStatus } = useMenuStore();
@@ -14,10 +15,16 @@ function Menu() {
     <section
       className={`fixed ${
         menuIsOpen ? "left-[0%]" : "left-[100%]"
-      } z-50 w-full h-full bg-light duration-300 ease-in-out`}
+      } z-50 w-full h-full grid grid-cols-1 grid-rows-[64px_1fr_1fr] bg-light duration-300 ease-in-out`}
     >
-      <header className="w-full h-16 flex justify-between items-center px-4">
-        <i className="text-dark font-bold text-[28px]">CIMA</i>
+      <header className="flex justify-between items-center px-4">
+        <i className="w-14 h-14 overflow-hidden">
+          <img
+            src={cima_dark}
+            alt="cima_logo"
+            className="w-full h-full object-cover"
+          />
+        </i>
         <div className="flex items-center gap-5">
           <Button
             text="Contactanos"
@@ -30,7 +37,7 @@ function Menu() {
           </button>
         </div>
       </header>
-      <menu className="w-full flex flex-col items-start gap-5 p-4 pt-10 text-[16px] text-dark">
+      <menu className="flex flex-col justify-evenly items-start p-4 pt-10 text-[16px] text-dark">
         <button>Inicio</button>
         <button>Compra</button>
         <button>Vende</button>
@@ -39,6 +46,7 @@ function Menu() {
         <button>Servicios</button>
         <button>Contactanos</button>
       </menu>
+      <article className=""></article>
     </section>
   );
 }

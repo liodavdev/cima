@@ -4,7 +4,7 @@ function Button({
   text = "Contenido",
   background = "bg-light",
   border = "border-light",
-  color = "text-dark",
+  color = "text-red-wine",
   icon = "",
 }) {
   return (
