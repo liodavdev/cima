@@ -18,7 +18,7 @@ function FrontPage() {
         backgroundRepeat: "no-repeat",
         backgroundSize: "cover",
       }}
-      className="relative w-full h-screen"
+      className="relative w-full h-screen duration-300 ease-in-out"
     >
       <div className="w-full h-[calc(100%-256px)] flex flex-col justify-end gap-5 p-4 pb-22">
         <h2 className="text-light">TU PUERTA A UNA NUEVA VIDA</h2>
