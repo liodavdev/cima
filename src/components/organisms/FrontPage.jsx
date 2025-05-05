@@ -3,6 +3,7 @@ import ActionBtn from "../atoms/ActionBtn";
 import Button from "../atoms/Button";
 import SupportAgentIcon from "@mui/icons-material/SupportAgent";
 import AttachMoneyIcon from "@mui/icons-material/AttachMoney";
+import KeyIcon from "@mui/icons-material/Key";
 import RealEstateAgentIcon from "@mui/icons-material/RealEstateAgent";
 import BungalowIcon from "@mui/icons-material/Bungalow";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
@@ -51,6 +52,7 @@ function FrontPage() {
             text="Invierte"
             icon={<AttachMoneyIcon fontSize="small" />}
           />
+          <ActionBtn text="Renta" icon={<KeyIcon fontSize="small" />} />
           <ActionBtn
             text="Servicios"
             icon={<WorkOutlineIcon fontSize="small" />}
