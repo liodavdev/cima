@@ -17,8 +17,8 @@ function Menu() {
         menuIsOpen ? "left-[0%]" : "left-[100%]"
       } z-50 w-full h-full grid grid-cols-1 grid-rows-[64px_1fr_1fr] bg-light duration-300 ease-in-out`}
     >
-      <header className="flex justify-between items-center px-4">
-        <i className="w-14 h-14 overflow-hidden">
+      <header className="flex justify-between items-center pr-4">
+        <i className="w-16 h-16 overflow-hidden">
           <img
             src={cima_dark}
             alt="cima_logo"
@@ -30,9 +30,10 @@ function Menu() {
             text="Contactanos"
             color="text-light"
             background="bg-dark"
+            border="border-dark"
             icon={<MailOutlineIcon fontSize="small" />}
           />
-          <button className="h-full text-dark" onClick={closeMenu}>
+          <button className="w-[35px] h-[35px] text-dark" onClick={closeMenu}>
             <CloseIcon fontSize="medium" />
           </button>
         </div>

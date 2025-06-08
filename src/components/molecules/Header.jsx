@@ -18,8 +18,8 @@ function Header() {
   return (
     <header
       className={`fixed left-0 top-0 z-50 w-full ${
-        scroll < 100 ? "h-28 bg-transparent pl-4" : "h-16 bg-light pl-0"
-      } flex justify-between items-center px-4 border-b border-light duration-300 ease-in-out`}
+        scroll < 100 ? "h-28 bg-transparent" : "h-16 pl-0 bg-light"
+      } flex justify-between items-center border-b px-4 border-light duration-300 ease-in-out`}
     >
       <i
         className={`relative w-20 ${
