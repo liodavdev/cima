@@ -1,16 +1,13 @@
+import { useConstants } from "../../lib/hooks/constants";
 import item from "../../assets/item_1.webp";
 import ActionBtn from "../atoms/ActionBtn";
 import Button from "../atoms/Button";
 import SupportAgentIcon from "@mui/icons-material/SupportAgent";
-import AttachMoneyIcon from "@mui/icons-material/AttachMoney";
-import KeyIcon from "@mui/icons-material/Key";
-import RealEstateAgentIcon from "@mui/icons-material/RealEstateAgent";
-import BungalowIcon from "@mui/icons-material/Bungalow";
-import MailOutlineIcon from "@mui/icons-material/MailOutline";
-import WorkOutlineIcon from "@mui/icons-material/WorkOutline";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 
 function FrontPage() {
+  const { services } = useConstants();
+
   return (
     <article
       style={{
@@ -43,28 +40,9 @@ function FrontPage() {
           <p>Tenemos un equipo listo para ayudarte</p>
         </div>
         <menu className="flex items-center gap-5 overflow-auto">
-          <ActionBtn
-            text="Compra"
-            icon={<RealEstateAgentIcon fontSize="small" />}
-          />
-          <ActionBtn text="Vende" icon={<BungalowIcon fontSize="small" />} />
-          <ActionBtn
-            text="Invierte"
-            icon={<AttachMoneyIcon fontSize="small" />}
-          />
-          <ActionBtn text="Renta" icon={<KeyIcon fontSize="small" />} />
-          <ActionBtn
-            text="Servicios"
-            icon={<WorkOutlineIcon fontSize="small" />}
-          />
-          <ActionBtn
-            text="Agentes"
-            icon={<SupportAgentIcon fontSize="small" />}
-          />
-          <ActionBtn
-            text="Contacto"
-            icon={<MailOutlineIcon fontSize="small" />}
-          />
+          {services.map(({ id, label, icon }) => (
+            <ActionBtn key={id} text={label} icon={icon} />
+          ))}
         </menu>
       </div>
     </article>

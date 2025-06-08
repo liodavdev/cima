@@ -4,7 +4,7 @@ import Menu from "../organisms/Menu";
 
 function Layout({ children }) {
   return (
-    <section className="relative w-screen h-screen">
+    <section className="relative w-screen h-dvh">
       <Header />
       <Menu />
       <main className="w-full overflow-hidden">{children}</main>
