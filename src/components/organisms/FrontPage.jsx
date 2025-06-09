@@ -1,25 +1,17 @@
 import { useConstants } from "../../lib/hooks/constants";
-import item from "../../assets/item_1.webp";
+import Carrousel from "../molecules/Carrousel";
 import ActionBtn from "../atoms/ActionBtn";
 import Button from "../atoms/Button";
 import SupportAgentIcon from "@mui/icons-material/SupportAgent";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 
 function FrontPage() {
-  const { services } = useConstants();
+  const { carrousel, slide, services } = useConstants();
 
   return (
-    <article
-      style={{
-        backgroundImage: `url("${item}")`,
-        backgroundAttachment: "fixed",
-        backgroundPosition: "center",
-        backgroundRepeat: "no-repeat",
-        backgroundSize: "cover",
-      }}
-      className="relative w-full h-dvh"
-    >
-      <div className="w-full h-[calc(100%-256px)] flex flex-col justify-end gap-5 p-4 pb-22">
+    <article className="relative w-full h-dvh">
+      <Carrousel carrousel={carrousel} slide={slide} />
+      <section className="w-full h-[calc(100%-256px)] flex flex-col justify-end gap-8 p-4">
         <h2 className="text-light">TU PUERTA A UNA NUEVA VIDA</h2>
         <div className="flex gap-5">
           <Button
@@ -33,7 +25,18 @@ function FrontPage() {
             icon={<YouTubeIcon fontSize="small" />}
           />
         </div>
-      </div>
+        <div className="flex justify-center items-center gap-5">
+          {carrousel.map(({ id, action }) => (
+            <button
+              key={id}
+              className={`w-3 h-3 rounded-full border ${
+                slide === id ? "bg-light" : "bg-transparent"
+              } border-light duration-500 ease-in-out`}
+              onClick={action}
+            ></button>
+          ))}
+        </div>
+      </section>
       <div className="absolute bottom-0 left-0 w-full h-64 grid grid-cols-1 grid-rows-[50px_1fr] gap-4 p-4 pt-10 pb-14 rounded-t-2xl bg-light overflow-hidden">
         <div>
           <h2 className="text-dark font-medium">¿ QUE QUIERES HACER ?</h2>

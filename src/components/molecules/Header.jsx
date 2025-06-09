@@ -1,13 +1,13 @@
 import { useMenuStore } from "../../lib/store/menu";
+import { useScreen } from "../../lib/hooks/screen";
 import Button from "../atoms/Button";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
 import MenuIcon from "@mui/icons-material/Menu";
 import cima_red_wine from "../../assets/cima_red_wine.png";
 import cima_light_bg from "../../assets/cima_light_bg.png";
-import useScroll from "../../lib/hooks/scroll";
 
 function Header() {
-  const { scroll } = useScroll();
+  const { scroll } = useScreen();
 
   const { handleMenuStatus } = useMenuStore();
 

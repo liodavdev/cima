@@ -1,11 +1,15 @@
 import { useMenuStore } from "../../lib/store/menu";
+import { useConstants } from "../../lib/hooks/constants";
 import CloseIcon from "@mui/icons-material/Close";
 import Button from "../atoms/Button";
 import MailOutlineIcon from "@mui/icons-material/MailOutline";
 import cima_dark from "../../assets/cima_dark.png";
+import NetworkBtn from "../atoms/NetworkBtn";
 
 function Menu() {
   const { menuIsOpen, handleMenuStatus } = useMenuStore();
+
+  const { networks } = useConstants();
 
   function closeMenu() {
     handleMenuStatus({ bool: false });
@@ -15,7 +19,7 @@ function Menu() {
     <section
       className={`fixed ${
         menuIsOpen ? "left-[0%]" : "left-[100%]"
-      } z-50 w-full h-full grid grid-cols-1 grid-rows-[64px_1fr_1fr] bg-light duration-300 ease-in-out`}
+      } z-50 w-full h-full grid grid-cols-1 grid-rows-[64px_3fr_3fr_1fr] bg-light duration-300 ease-in-out`}
     >
       <header className="flex justify-between items-center pr-4">
         <i className="w-16 h-16 overflow-hidden">
@@ -38,7 +42,7 @@ function Menu() {
           </button>
         </div>
       </header>
-      <menu className="flex flex-col justify-evenly items-start p-4 pt-10 text-[16px] text-red-wine">
+      <menu className="flex flex-col justify-evenly items-start p-4 text-[16px] text-red-wine">
         <button>Inicio</button>
         <button>Compra</button>
         <button>Vende</button>
@@ -47,7 +51,20 @@ function Menu() {
         <button>Servicios</button>
         <button>Contactanos</button>
       </menu>
-      <article className=""></article>
+      <article className="flex justify-evenly items-end text-[16px] px-4 pb-13 text-red-wine">
+        {networks.map(({ id, icon }) => (
+          <NetworkBtn key={id} icon={icon} />
+        ))}
+      </article>
+      <article className="flex items-end p-4">
+        <p className="text-[10px]">
+          En CIMA protegemos sus datos personales conforme a la legislación
+          aplicable. La información que recabamos se usa únicamente para fines
+          de contacto, promoción y servicios inmobiliarios. Para conocer el
+          aviso completo y ejercer sus derechos, contáctenos en
+          <span className="text-red-wine font-bold"> contacto@cima.com</span>
+        </p>
+      </article>
     </section>
   );
 }
