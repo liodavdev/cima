@@ -9,7 +9,7 @@ function FrontPage() {
   const { carrousel, slide, services } = useConstants();
 
   return (
-    <article className="relative w-full h-screen">
+    <article className="relative w-full h-dvh">
       <Carrousel carrousel={carrousel} slide={slide} />
       <section className="w-full h-[calc(100%-256px)] flex flex-col justify-end gap-8 p-4">
         <h2 className="text-light">TU PUERTA A UNA NUEVA VIDA</h2>
