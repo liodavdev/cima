@@ -1,0 +1,380 @@
+[
+  {
+    "id": 1,
+    "title": "Casa moderna en el centro",
+    "price": 250000,
+    "area_sqm": 150,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "amenities": ["Piscina", "Jardín", "Cochera"],
+    "description": "Casa moderna con acabados de lujo en zona céntrica.",
+    "category": "venta",
+    "location": "Querétaro, QRO, México",
+    "images": [
+      "https://images.unsplash.com/photo-1531971589569-0d9370cbe1e5?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8bHV4dXJ5JTIwaG91c2VzfGVufDB8fDB8fHwy"
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Departamento cómodo y céntrico",
+    "price": 1200,
+    "area_sqm": 75,
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "amenities": ["Gimnasio", "Seguridad", "Estacionamiento"],
+    "description": "Departamento con excelente ubicación y seguridad 24/7.",
+    "category": "renta",
+    "location": "Querétaro, QRO, México",
+    "images": [
+      "https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bHV4dXJ5JTIwaG91c2VzfGVufDB8fDB8fHwy"
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Casa familiar con jardín amplio",
+    "price": 300000,
+    "area_sqm": 200,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "amenities": ["Jardín grande", "Terraza", "Cocina equipada"],
+    "description": "Perfecta para familias que buscan espacio y comodidad.",
+    "category": "venta",
+    "location": "San Miguel de Allende, GTO, México",
+    "images": [
+      "https://images.unsplash.com/photo-1660361338517-8c8fbb3ac264?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8bHV4dXJ5JTIwaG91c2VzfGVufDB8fDB8fHwy"
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Departamento con vista a la ciudad",
+    "price": 1500,
+    "area_sqm": 90,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "amenities": ["Balcón", "Gimnasio", "Piscina"],
+    "description": "Disfruta de una hermosa vista y amenidades exclusivas.",
+    "category": "renta",
+    "location": "Querétaro, QRO, México",
+    "images": [
+      "https://images.unsplash.com/photo-1628744448838-c04e09b1ba03?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGx1eHVyeSUyMGhvdXNlc3xlbnwwfHwwfHx8Mg%3D%3D"
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Casa en zona residencial tranquila",
+    "price": 220000,
+    "area_sqm": 170,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "amenities": ["Parque cercano", "Cochera", "Seguridad"],
+    "description": "Ideal para vivir en familia con tranquilidad y seguridad.",
+    "category": "venta",
+    "location": "Querétaro, QRO, México",
+    "images": [
+      "https://images.unsplash.com/photo-1717167398882-15d1cefd22f6?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjZ8fGx1eHVyeSUyMGhvdXNlc3xlbnwwfHwwfHx8Mg%3D%3D"
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Departamento tipo loft",
+    "price": 1100,
+    "area_sqm": 60,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "amenities": ["Cocina equipada", "Seguridad", "Elevador"],
+    "description": "Espacio moderno y funcional, ideal para jóvenes profesionales.",
+    "category": "renta",
+    "location": "Querétaro, QRO, México",
+    "images": [
+      "https://images.unsplash.com/photo-1706808849802-8f876ade0d1f?w=700&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDF8fGx1eHVyeSUyMGhvdXNlc3xlbnwwfHwwfHx8Mg%3D%3D"
+    ]
+  },
+  {
+    "id": 7,
+    "title": "Casa con piscina y jardín",
+    "price": 350000,
+    "area_sqm": 230,
+    "bedrooms": 5,
+    "bathrooms": 4,
+    "amenities": ["Piscina", "Jardín grande", "Terraza"],
+    "description": "Amplia casa con espacios para toda la familia.",
+    "category": "venta",
+    "location": "Querétaro, QRO, México",
+    "images": [
+      "https://source.unsplash.com/NodtnCsLdTE/800x600",
+      "https://source.unsplash.com/6VhPY27jdps/800x600",
+      "https://source.unsplash.com/4ojhpgKpS68/800x600",
+      "https://source.unsplash.com/2EJCSULRwC8/800x600"
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Departamento cerca de universidad",
+    "price": 950,
+    "area_sqm": 65,
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "amenities": ["Transporte cercano", "Seguridad", "Balcón"],
+    "description": "Perfecto para estudiantes o profesionales jóvenes.",
+    "category": "renta",
+    "location": "Querétaro, QRO, México",
+    "images": [
+      "https://source.unsplash.com/WLxQvbMyfas/800x600",
+      "https://source.unsplash.com/Xq1ntWruZQI/800x600",
+      "https://source.unsplash.com/Db29JuH4ZEI/800x600",
+      "https://source.unsplash.com/55g2FgJz-2I/800x600"
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Casa estilo colonial",
+    "price": 275000,
+    "area_sqm": 180,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "amenities": ["Patio", "Chimenea", "Cochera techada"],
+    "description": "Casa con diseño colonial y detalles tradicionales.",
+    "category": "venta",
+    "location": "San Miguel de Allende, GTO, México",
+    "images": [
+      "https://source.unsplash.com/2EJCSULRwC8/800x600",
+      "https://source.unsplash.com/6VhPY27jdps/800x600",
+      "https://source.unsplash.com/NodtnCsLdTE/800x600",
+      "https://source.unsplash.com/4ojhpgKpS68/800x600"
+    ]
+  },
+  {
+    "id": 10,
+    "title": "Departamento con amenidades",
+    "price": 1700,
+    "area_sqm": 85,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "amenities": ["Gimnasio", "Piscina", "Seguridad"],
+    "description": "Departamento moderno con todas las comodidades.",
+    "category": "renta",
+    "location": "Querétaro, QRO, México",
+    "images": [
+      "https://source.unsplash.com/Xq1ntWruZQI/800x600",
+      "https://source.unsplash.com/WLxQvbMyfas/800x600",
+      "https://source.unsplash.com/Db29JuH4ZEI/800x600",
+      "https://source.unsplash.com/55g2FgJz-2I/800x600"
+    ]
+  },
+  {
+    "id": 11,
+    "title": "Casa con diseño minimalista",
+    "price": 310000,
+    "area_sqm": 210,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "amenities": ["Jardín", "Terraza", "Cochera techada"],
+    "description": "Casa elegante con diseño minimalista y espacios abiertos.",
+    "category": "venta",
+    "location": "Querétaro, QRO, México",
+    "images": [
+      "https://source.unsplash.com/6VhPY27jdps/800x600",
+      "https://source.unsplash.com/4ojhpgKpS68/800x600",
+      "https://source.unsplash.com/2EJCSULRwC8/800x600",
+      "https://source.unsplash.com/NodtnCsLdTE/800x600"
+    ]
+  },
+  {
+    "id": 12,
+    "title": "Departamento céntrico con balcón",
+    "price": 1300,
+    "area_sqm": 70,
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "amenities": ["Balcón", "Seguridad", "Estacionamiento"],
+    "description": "Departamento acogedor en zona céntrica.",
+    "category": "renta",
+    "location": "Querétaro, QRO, México",
+    "images": [
+      "https://source.unsplash.com/WLxQvbMyfas/800x600",
+      "https://source.unsplash.com/Xq1ntWruZQI/800x600",
+      "https://source.unsplash.com/Db29JuH4ZEI/800x600",
+      "https://source.unsplash.com/55g2FgJz-2I/800x600"
+    ]
+  },
+  {
+    "id": 13,
+    "title": "Casa con patio grande",
+    "price": 280000,
+    "area_sqm": 195,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "amenities": ["Patio", "Cochera", "Jardín"],
+    "description": "Casa amplia con patio ideal para reuniones familiares.",
+    "category": "venta",
+    "location": "Querétaro, QRO, México",
+    "images": [
+      "https://source.unsplash.com/NodtnCsLdTE/800x600",
+      "https://source.unsplash.com/6VhPY27jdps/800x600",
+      "https://source.unsplash.com/2EJCSULRwC8/800x600",
+      "https://source.unsplash.com/4ojhpgKpS68/800x600"
+    ]
+  },
+  {
+    "id": 14,
+    "title": "Departamento moderno y luminoso",
+    "price": 1450,
+    "area_sqm": 80,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "amenities": ["Elevador", "Seguridad", "Gimnasio"],
+    "description": "Departamento con excelente iluminación y acabados modernos.",
+    "category": "renta",
+    "location": "Querétaro, QRO, México",
+    "images": [
+      "https://source.unsplash.com/Xq1ntWruZQI/800x600",
+      "https://source.unsplash.com/WLxQvbMyfas/800x600",
+      "https://source.unsplash.com/Db29JuH4ZEI/800x600",
+      "https://source.unsplash.com/55g2FgJz-2I/800x600"
+    ]
+  },
+  {
+    "id": 15,
+    "title": "Casa con terraza y vista",
+    "price": 330000,
+    "area_sqm": 220,
+    "bedrooms": 5,
+    "bathrooms": 4,
+    "amenities": ["Terraza", "Vista panorámica", "Piscina"],
+    "description": "Amplia casa con terraza y vista espectacular.",
+    "category": "venta",
+    "location": "Querétaro, QRO, México",
+    "images": [
+      "https://source.unsplash.com/6VhPY27jdps/800x600",
+      "https://source.unsplash.com/NodtnCsLdTE/800x600",
+      "https://source.unsplash.com/4ojhpgKpS68/800x600",
+      "https://source.unsplash.com/2EJCSULRwC8/800x600"
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Departamento pequeño pero cómodo",
+    "price": 900,
+    "area_sqm": 50,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "amenities": ["Seguridad", "Estacionamiento", "Cocina equipada"],
+    "description": "Ideal para personas solas o parejas jóvenes.",
+    "category": "renta",
+    "location": "Querétaro, QRO, México",
+    "images": [
+      "https://source.unsplash.com/55g2FgJz-2I/800x600",
+      "https://source.unsplash.com/WLxQvbMyfas/800x600",
+      "https://source.unsplash.com/Xq1ntWruZQI/800x600",
+      "https://source.unsplash.com/Db29JuH4ZEI/800x600"
+    ]
+  },
+  {
+    "id": 17,
+    "title": "Casa en zona tranquila",
+    "price": 210000,
+    "area_sqm": 160,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "amenities": ["Parque cercano", "Jardín", "Cochera"],
+    "description": "Casa perfecta para quienes buscan tranquilidad y naturaleza.",
+    "category": "venta",
+    "location": "Querétaro, QRO, México",
+    "images": [
+      "https://source.unsplash.com/6VhPY27jdps/800x600",
+      "https://source.unsplash.com/NodtnCsLdTE/800x600",
+      "https://source.unsplash.com/4ojhpgKpS68/800x600",
+      "https://source.unsplash.com/2EJCSULRwC8/800x600"
+    ]
+  },
+  {
+    "id": 18,
+    "title": "Departamento céntrico con gimnasio",
+    "price": 1600,
+    "area_sqm": 85,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "amenities": ["Gimnasio", "Seguridad 24h", "Piscina"],
+    "description": "Departamento con gimnasio privado y piscina.",
+    "category": "renta",
+    "location": "Querétaro, QRO, México",
+    "images": [
+      "https://source.unsplash.com/Xq1ntWruZQI/800x600",
+      "https://source.unsplash.com/WLxQvbMyfas/800x600",
+      "https://source.unsplash.com/Db29JuH4ZEI/800x600",
+      "https://source.unsplash.com/55g2FgJz-2I/800x600"
+    ]
+  },
+  {
+    "id": 19,
+    "title": "Casa con diseño clásico",
+    "price": 280000,
+    "area_sqm": 190,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "amenities": ["Patio", "Terraza", "Jardín"],
+    "description": "Casa clásica con amplios espacios y jardín.",
+    "category": "venta",
+    "location": "Querétaro, QRO, México",
+    "images": [
+      "https://source.unsplash.com/NodtnCsLdTE/800x600",
+      "https://source.unsplash.com/6VhPY27jdps/800x600",
+      "https://source.unsplash.com/2EJCSULRwC8/800x600",
+      "https://source.unsplash.com/4ojhpgKpS68/800x600"
+    ]
+  },
+  {
+    "id": 20,
+    "title": "Departamento con terraza y balcón",
+    "price": 1400,
+    "area_sqm": 75,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "amenities": ["Terraza", "Balcón", "Seguridad"],
+    "description": "Departamento con terraza amplia y balcón.",
+    "category": "renta",
+    "location": "Querétaro, QRO, México",
+    "images": [
+      "https://source.unsplash.com/55g2FgJz-2I/800x600",
+      "https://source.unsplash.com/WLxQvbMyfas/800x600",
+      "https://source.unsplash.com/Xq1ntWruZQI/800x600",
+      "https://source.unsplash.com/Db29JuH4ZEI/800x600"
+    ]
+  },
+  {
+    "id": 21,
+    "title": "Casa con jardín y piscina",
+    "price": 360000,
+    "area_sqm": 240,
+    "bedrooms": 5,
+    "bathrooms": 4,
+    "amenities": ["Piscina", "Jardín grande", "Terraza"],
+    "description": "Amplia casa con piscina y jardín grande para eventos.",
+    "category": "venta",
+    "location": "Querétaro, QRO, México",
+    "images": [
+      "https://source.unsplash.com/6VhPY27jdps/800x600",
+      "https://source.unsplash.com/NodtnCsLdTE/800x600",
+      "https://source.unsplash.com/4ojhpgKpS68/800x600",
+      "https://source.unsplash.com/2EJCSULRwC8/800x600"
+    ]
+  },
+  {
+    "id": 22,
+    "title": "Departamento con cocina equipada",
+    "price": 1000,
+    "area_sqm": 65,
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "amenities": ["Cocina equipada", "Seguridad", "Elevador"],
+    "description": "Departamento con cocina moderna y seguridad.",
+    "category": "renta",
+    "location": "Querétaro, QRO, México",
+    "images": [
+      "https://source.unsplash.com/Xq1ntWruZQI/800x600",
+      "https://source.unsplash.com/WLxQvbMyfas/800x600",
+      "https://source.unsplash.com/Db29JuH4ZEI/800x600",
+      "https://source.unsplash.com/55g2FgJz-2I/800x600"
+    ]
+  }
+]

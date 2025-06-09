@@ -18,7 +18,9 @@ function Header() {
   return (
     <header
       className={`fixed left-0 top-0 z-50 w-full ${
-        scroll < 100 ? "h-28 bg-transparent" : "h-16 pl-0 bg-light"
+        scroll < 100
+          ? "h-28 bg-transparent shadow-none"
+          : "h-16 pl-0 bg-light shadow-sm"
       } flex justify-between items-center border-b px-4 border-light duration-300 ease-in-out`}
     >
       <i
