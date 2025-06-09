@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useState } from "react";
 import RealEstateAgentIcon from "@mui/icons-material/RealEstateAgent";
 import BungalowIcon from "@mui/icons-material/Bungalow";
 import AttachMoneyIcon from "@mui/icons-material/AttachMoney";
@@ -38,17 +38,7 @@ export const useConstants = () => {
     { id: 6, label: "Telegram", icon: <TelegramIcon fontSize="small" /> },
   ]);
 
-  const timerRef = useRef(null);
-
-  const [slide, setSlide] = useState(4);
-
-  useEffect(() => {
-    timerRef.current = setInterval(() => {
-      setSlide((prevSlide) => (prevSlide === 5 ? 1 : prevSlide + 1));
-    }, 3000);
-
-    return () => clearInterval(timerRef.current);
-  }, [slide]);
+  const [slide, setSlide] = useState(3);
 
   const [carrousel] = useState([
     { id: 1, image: item_1, action: () => setSlide(1) },
