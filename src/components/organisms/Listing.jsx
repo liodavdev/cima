@@ -27,7 +27,7 @@ function Listing() {
   }, []);
 
   return (
-    <article className="grid grid-cols-1 grid-rows-[120px_570px_120px] gap-4 p-4">
+    <article className="grid grid-cols-1 grid-rows-[120px_570px_120px] gap-4 p-4 py-20">
       <Heading principal="DISPONIBLES" secondary="PROPIEDADES" />
       {listing[0] && (
         <section className="w-full h-full grid grid-cols-2 grid-rows-3 gap-4">
