@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react';
 
 function Buy() {
-  return <div>Buy</div>;
+	return <div>Buy</div>;
 }
 
 export default Buy;

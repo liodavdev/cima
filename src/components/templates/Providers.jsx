@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react';
 
 function Providers({ children }) {
-  return <section>{children}</section>;
+	return <section>{children}</section>;
 }
 
 export default Providers;

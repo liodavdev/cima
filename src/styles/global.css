@@ -1,22 +1,22 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 @theme {
-  --color-red-wine: #8b0d33; /* rgb(139, 13, 51) */
-  --color-dark: #111111;
-  --color-light: #fefefa;
-  --color-neutral: #808080;
-  --font-josefin: "Josefin Sans", sans-serif;
+	--color-red-wine: #8b0d33; /* rgb(139, 13, 51) */
+	--color-dark: #111111;
+	--color-light: #fefefa;
+	--color-neutral: #808080;
+	--font-josefin: 'Josefin Sans', sans-serif;
 }
 
 @layer standars {
-  body {
-    @apply font-josefin text-neutral text-[20px];
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-  }
+	body {
+		@apply font-josefin text-neutral text-[20px];
+		font-optical-sizing: auto;
+		font-weight: 400;
+		font-style: normal;
+	}
 
-  button {
-    cursor: pointer;
-  }
+	button {
+		cursor: pointer;
+	}
 }

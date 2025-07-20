@@ -1,7 +1,7 @@
-import { create } from "zustand";
+import { create } from 'zustand';
 
 export const useMenuStore = create((set) => ({
-  menuIsOpen: false,
+	menuIsOpen: false,
 
-  handleMenuStatus: ({ bool }) => set(() => ({ menuIsOpen: bool })),
+	handleMenuStatus: ({ bool }) => set(() => ({ menuIsOpen: bool })),
 }));

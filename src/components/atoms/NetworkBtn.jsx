@@ -1,9 +1,9 @@
 function NetworkBtn({ icon }) {
-  return (
-    <button className="w-10 h-10 grid place-content-center rounded-full bg-red-wine text-light">
-      <a>{icon}</a>
-    </button>
-  );
+	return (
+		<button className='bg-red-wine text-light grid h-10 w-10 place-content-center rounded-full'>
+			<a>{icon}</a>
+		</button>
+	);
 }
 
 export default NetworkBtn;
